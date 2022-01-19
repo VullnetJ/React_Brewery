@@ -1,38 +1,70 @@
 .App {
   text-align: center;
+  background-color: rgba(157, 157, 236, 0.521);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.text-input {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgb(232, 236, 232);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 4px;
+  box-shadow: rgba(209, 192, 34, 0.562) 0px 2px 8px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  text-align: center;
+}
+.item-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.brewery-list {
+  background-color: darkcyan;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-top: 0.1px;
+  padding-bottom: 0.1px;
+  box-shadow: rgba(224, 16, 16, 0.562) 0px 2px 8px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  text-align: center;
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 1em;
+  box-shadow: rgba(117, 22, 172, 0.781) 0px 2px 8px 0px;
+  background-color: coral;
+}
+.detail-page {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  width: 800px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.detail-button-go-back {
+  padding: 1em;
+  margin-left: 20%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.brewery-list {
+  white-space: pre-line;
 }
